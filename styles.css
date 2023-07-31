@@ -88,14 +88,14 @@ footer {
 
 .project-card h3 {
     margin-top: 0;
-    color: #007BFF; 
+    color: #007BFF; /* Dark blue title color */
 }
 
 .project-card a {
     display: inline-block;
     margin-top: 10px;
     color: #fff;
-    background: #007BFF; 
+    background: #007BFF; /* Dark blue button background */
     border-radius: 5px;
     padding: 8px 16px;
     text-decoration: none;
@@ -103,9 +103,5 @@ footer {
 }
 
 .project-card a:hover {
-    background-color: #005cb2; 
-}
-
-html {
-    scroll-behavior: smooth;
+    background-color: #005cb2; /* Lighter blue on hover */
 }
