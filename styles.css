@@ -1,24 +1,23 @@
-
-
+/* Global Styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #64b5f6, #ADD8E6); 
-    color: #fff; 
+    background: linear-gradient(to right, #64b5f6, #2196f3); /* Cool gradient background */
+    color: #fff; /* Light text color for contrast */
 }
 
 header {
-    background: linear-gradient(to right, #005cb2, #007BFF); 
+    background: linear-gradient(to right, #005cb2, #007BFF); /* Gradient header background */
     color: white;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow to the header */
     transition: background-color 0.3s ease-in-out;
 }
 
 header:hover {
-    background: linear-gradient(to right, #0f3868, #005cb2); 
+    background: linear-gradient(to right, #0f3868, #005cb2); /* Lighter gradient on hover */
 }
 
 nav ul {
@@ -36,60 +35,60 @@ nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out; /* Smooth color transition on hover */
 }
 
 nav a:hover {
-    color: #ffd700; 
+    color: #ffd700; /* Change to gold color on hover */
 }
 
-
+/* Home Section */
 #home {
     padding: 40px;
     text-align: center;
 }
 
-
+/* About Section */
 #about {
     padding: 40px;
 }
 
-
+/* Projects Section */
 #projects {
     padding: 40px;
 }
 
-
+/* Contact Section */
 #contact {
     padding: 40px;
     text-align: center;
 }
 
 footer {
-    background: linear-gradient(to right, #005cb2, #007BFF); 
+    background: linear-gradient(to right, #005cb2, #007BFF); /* Gradient footer background */
     color: white;
     text-align: center;
     padding: 10px;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow to the footer */
 }
 
 /* Project Cards */
 .project-card {
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add a shadow to project cards */
     padding: 20px;
     margin-bottom: 20px;
     transition: transform 0.3s ease-in-out;
 }
 
 .project-card:hover {
-    transform: translateY(-5px); 
+    transform: translateY(-5px); /* Slightly lift up on hover */
 }
 
 .project-card h3 {
     margin-top: 0;
-    color: #007BFF;
+    color: #007BFF; 
 }
 
 .project-card a {
@@ -106,20 +105,6 @@ footer {
 .project-card a:hover {
     background-color: #005cb2; 
 }
-
-
-
-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.2s ease-in-out;
-}
-
-nav a:hover {
-    color: #ffd700; 
-}
-
 
 html {
     scroll-behavior: smooth;
